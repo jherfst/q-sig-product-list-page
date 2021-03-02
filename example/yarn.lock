@@ -6300,9 +6300,21 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
+q-sig-button@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/q-sig-button/-/q-sig-button-1.0.3.tgz#4f7729e8095086a25b3861a7129a801350d6ced4"
+  integrity sha512-7HVcUSaeLpSfKHqD3onAuzUaLmH4OldyHZnJx/wHtch/JIA7Z8ag3TbMfprY0CLWZo9uUu9jMjo8r6Ych+SdEg==
+
+q-sig-context@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/q-sig-context/-/q-sig-context-1.0.0.tgz#4b1cff1ecbcedb51cdd0a0b2418dc05063f7b77d"
+  integrity sha512-NgVvTfT/CbXVvfpZItz2kVxtSESWl3nkbJAleSqAUMGsI0vqkAzPbfrYpVWExDc6rG63FGrBrCl2WfVCVfVS8Q==
+
 "q-sig-product-list-page@link:..":
-  version "0.0.0"
-  uid ""
+  version "1.0.0"
+  dependencies:
+    q-sig-button "^1.0.3"
+    q-sig-context "^1.0.0"
 
 q@^1.1.2:
   version "1.5.1"
@@ -7820,9 +7832,9 @@ uri-js@^4.2.2:
     punycode "^2.1.0"
 
 urijs@^1.16.1:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.1.tgz#5b0ff530c0cbde8386f6342235ba5ca6e995d25a"
-  integrity sha512-xVrGVi94ueCJNrBSTjWqjvtgvl3cyOTThp2zaMaFNGp3F542TR6sM3f2o8RqZl+AwteClSVmoCyt0ka4RjQOQg==
+  version "1.19.6"
+  resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.6.tgz#51f8cb17ca16faefb20b9a31ac60f84aa2b7c870"
+  integrity sha512-eSXsXZ2jLvGWeLYlQA3Gh36BcjF+0amo92+wHPyN1mdR8Nxf75fuEuYTd9c0a+m/vhCjRK0ESlE9YNLW+E1VEw==
 
 urix@^0.1.0:
   version "0.1.0"
